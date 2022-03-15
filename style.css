@@ -19,7 +19,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: rgb(53, 87, 45);
+    /* background: rgb(235, 8, 8); */
     font-family: 'Abel', sans-serif;
 }
 
@@ -73,6 +73,6 @@
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(53, 87, 45);
+    color: rgb(235, 8, 8);
     font-weight: 500;
 }
