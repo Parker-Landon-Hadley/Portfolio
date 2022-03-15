@@ -177,13 +177,17 @@ section{
 .about .about-content .right{
     width: 55%
 }
-.about .about-content .text{
+.about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-
-
+.about .about-content .right .text span{
+    color: rgb(32, 102, 0);
+}
+.about .about-content .right p{
+    text-align: justify;
+}
 
 
 
