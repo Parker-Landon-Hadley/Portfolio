@@ -7,5 +7,9 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-    })
+    });
+
+    $('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass('active');
+    });
 });
