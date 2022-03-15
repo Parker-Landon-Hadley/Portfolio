@@ -1,3 +1,7 @@
+/*  Date:       03/13/2022
+    Project:    Portfolio
+    For:        devCodeCamp
+    Developer   Parker Hadley  */
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
@@ -104,8 +108,8 @@
 }
 .home .home-content a{
     display: inline-block;
-    background:rgb(32, 102, 0);
-    color:#fff;
+    background: rgb(32, 102, 0);
+    color: #fff;
     font-size: 25px;
     padding: 25px 36px;
     margin-top: 20px;
@@ -114,7 +118,7 @@
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color:#fff;
+    color: rgb(32, 102, 0);
     background: none;
 }
 

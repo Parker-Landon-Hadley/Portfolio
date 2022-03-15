@@ -1,3 +1,8 @@
+/*  Date:       03/13/2022
+    Project:    Portfolio
+    For:        devCodeCamp
+    Developer   Parker Hadley  */
+
 "use script"
 
 $(document).ready(function(){
