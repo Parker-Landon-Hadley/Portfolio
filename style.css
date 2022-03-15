@@ -122,6 +122,14 @@
     background: none;
 }
 
+/* about section */
+.about{
+    font-family: 'Abel', sans-serif;
+}
+.about .title{
+    font-family: 'Abel', sans-serif;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px){
     .home .max-width{
@@ -171,6 +179,10 @@
     .home .home-content .text-3{
         font-size: 35px;
     }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -182,6 +194,9 @@
     }
     .home .home-content .text-3{
         font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
     }
 }
 
