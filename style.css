@@ -159,13 +159,34 @@ section{
     background:rgb(255, 255, 255);
     transform: translateX(-50%);
 }
-
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left{
+    width: 45%
+}
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
+.about .about-content .right{
+    width: 55%
+}
+.about .about-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 /* responsive media query start */
 @media (max-width: 1104px){
