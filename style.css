@@ -25,7 +25,7 @@
 
 .navbar.sticky{
     padding: 15px 0;
-    background:rgb(235, 8, 8);
+    background: rgb(32, 102, 0);
 }
 
 .navbar .max-width{
@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 .navbar .logo a span{
-    color:rgb(235, 8, 8);
+    color: rgb(32, 102, 0);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -59,7 +59,7 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(235, 8, 8);
+    color: rgb(32, 102, 0);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -99,7 +99,7 @@
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(235, 8, 8);
+    color: rgb(32, 102, 0);
     font-weight: 500;
 }
 
