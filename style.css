@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +19,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: rgb(194, 81, 6);
+    background: rgb(53, 87, 45);
     font-family: 'Abel', sans-serif;
 }
 
@@ -38,5 +38,12 @@
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
 
