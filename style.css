@@ -108,6 +108,14 @@
     color:#fff;
     font-size: 25px;
     padding: 25px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(32, 102, 0);
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color:#fff;
+    background: none;
 }
 
 /* responsive media query start */
