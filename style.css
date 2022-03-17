@@ -122,12 +122,9 @@
     background: none;
 }
 
-/* about section */
+/* all similar styling code  */
 section{
     padding:100px 0;
-}
-.about, .services{
-    font-family: 'Abel', sans-serif;
 }
 section .title{
     position: relative;
@@ -158,10 +155,15 @@ section .title::after{
     background:rgb(255, 255, 255);
     transform: translateX(-50%);
 }
+/* about section */
+.about, .services{
+    font-family: 'Abel', sans-serif;
+}
 .about .title::after{
     content: "who + why";
 }
-.about .about-content{
+.about .about-content
+.services .serv-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -209,7 +211,45 @@ section .title::after{
 
 /* services section */
 .services{
-    
+    color:rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+}
+.services .title::before{
+    background:rgb(255, 255, 255);
+}
+.services .title::after{
+    content: "what i provide";
+}
+.services .serv-content .card{
+    width: (33% - 20px);
+    background: rgb(31, 31, 31);
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3ease;
+}
+services .serv-content .card:hover{
+    background: rgb(32, 102, 0);
+}
+.services .serv-content .card .box{
+    transition: all 0.3ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: rgb(32, 102, 0);
+    transition: color 0.3 ease;
+}
+.services .serv-content.card:hover i{
+    color: rgb(255, 255, 255);
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 /* responsive media query start */
